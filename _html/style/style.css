@@ -1,12 +1,3 @@
-/*
-Theme Name: Salustiano
-Description: Tema para el proyecto beta.
-Author: Andrea
-Author URI: https://alejandraperez.xyz
-Version: 1.0
-Text Domain: salustiano
-*/
-
 @charset "UTF-8";
 /*@import custom-properties.css  variable :root {...} */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
@@ -707,3 +698,13 @@ construir e menu desplegable en mobile*/
     list-style-type: none;
   }
 }
+/*
+@import lists
+@import forms
+@import link
+@import buttons
+@import mediaquery se pueden tener debajo del elemento que afecta, el problema que tiene es que se repite muchas veces, pero es mínimo y vale la pena
+@import hover-efects
+@import input
+ofrecer temas oscuros, se definen, pero si no hay, el navegador los define por descarte
+@import colors. paleta de colors, con properties AKA variables (color color vgd), (color   */

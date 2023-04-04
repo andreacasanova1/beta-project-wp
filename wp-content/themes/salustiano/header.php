@@ -6,9 +6,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content=" <?php the_fiel  ( 'options_website_color','option'); ?>
-
-        <?php the_fiel  ( 'options_head_scripts','option' ); ?>
+        <meta name="theme-color" content="#000000">
 
         <?php wp_head(); ?>
 

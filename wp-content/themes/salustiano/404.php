@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-    Estoy en index
+    Estoy en 404
 
 <?php get_footer(); ?>

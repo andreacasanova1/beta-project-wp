@@ -42,8 +42,7 @@
 
     add_theme_support ( 'title-tag' );
     add_theme_support ( 'post-thumbnails' );
-
-    // add_post_type_support ( 'page', 'excerpt' );
+    add_post_type_support ( 'page', 'excerpt' );
 
 
 
@@ -56,27 +55,6 @@
 
 
 //  REGISTRO DE SIDEBARS
-
-    register_sidebar ( array
-    (
-        'id' => 'post-sidebar',
-        'name' => 'Sidebar en entradas',
-        'before_title' => '<h4>',
-        'after_title' => '</h4>',
-        'before_widget' => '<div class="widget %2$s">',
-        'after_widget' => '</div>',
-    ));
-
-    register_sidebar ( array
-    (
-        'id' => 'page-sidebar',
-        'name' => 'Sidebar en páginas',
-        'before_title' => '<h4>',
-        'after_title' => '</h4>',
-        'before_widget' => '<div class="widget %2$s">',
-        'after_widget' => '</div>',
-    ));
-
 
 
 //  REGISTRO DE TIPOS DE ENTRADA Y TAXONOMÍAS

@@ -2,16 +2,21 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content=" <?php the_fiel  ( 'options_website_color','option'); ?>
-        <title><?php wp_title ( '' ); ?></title>
-        <link href="style.css" rel="stylesheet">
 
         <?php the_fiel  ( 'options_head_scripts','option' ); ?>
+
         <?php wp_head(); ?>
-</head>
-    <body> <?php body_class(); ?>>
+
+    </head>
+
+    <body <?php body_class(); ?>>
+
+        <!-- HEADER -->
+
         <header class="site-header">
             <div>
 

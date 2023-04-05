@@ -19,30 +19,26 @@
     <body <?php body_class(); ?>>
     <!--HEADER-->
         <header class="site-header">
-            <div>
-                <h1>
-                    
-                   <!--es mas tocha ? <a href="<?php bloginfo ( 'url' ); ?>"> -->
-                    <a href="<?php echo home_url ( '/blog/' ); ?>">
-                        <img src="images/logo-negro.svg" alt="Salustiano logo">
-                    </a>
-                   
-                </h1>
-            </div>
+            
             <nav>
                 <div class="topbar"> 
                     <nav class="topbar__nav-container"> 
-                        <img class="topbar__nav-logo" src="img/landing/logo 400px.png" alt="logo-salustiano">
+                    <a href="<?php echo home_url ( '/front-page/' ); ?>">   
+                        <img class="topbar__nav-logo" src="<?php bloginfo ( 'template_url' ); ?>/images/logo-400px.png" alt="<?php bloginfo ( 'name' ); ?>">
+                    </a>   
                         <ul class="topbar__nav-ul">
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Productos y Servicios</a></li>
-                            <li><a href="#">Galería de Arte</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Carrito</a></li>
+                            <li><a href="<?php echo home_url ( '/productos-y-servicios/' ); ?>">Productos y Servicios</a></li>
+                            <li><a href="<?php echo home_url ( '/galeria-de-arte/' ); ?>">Galería de Arte</a></li>
+                            <li><a href="<?php echo home_url ( '/blog/' ); ?>">Blog</a></li>
+                            <li><a href="<?php echo home_url ( '/contacto/' ); ?>">Contacto</a></li>
+                            <li><a href="<?php echo home_url ( '/nosotros/' ); ?>">Nosotros</a></li>
+                            <li><a href="<?php echo home_url ( '/carrito/' ); ?>">Carrito</a></li>
                         </ul>
+                            <?php wp_nav_menu ( array ( 'theme_location' => 'nav' ) ); ?>
                     </nav> 
+                        
+                    
                     <div class="menu-burger">
                         <span class="line1__menu-burger"></span>
                         <span class="line2__menu-burger"></span>
@@ -50,8 +46,7 @@
                     </div> 
                 </div>
             </nav>
-        </header>     
-            
+          
        
 
     

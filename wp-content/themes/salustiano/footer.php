@@ -1,6 +1,23 @@
 
     <?php wp_footer(); ?>
+            <section class="social__media-section5-content">  
+                <h3>Visitanos en redes sociales</h3>
+                    <div class="social__media-section5">   
+                    
+                        <a href="facebook">
+                            <img class="sm" src="img/landing/facebook-icon-circle-logo.png"></a>
+                        <a href="instagram">
+                            <img class="sm" src="img/landing/icon _Instagram_ (1).png"></a>
+                        <a href="Linkedin">
+                            <img class="sm"src="img/landing/icon _Linkedin_.png"></a>
+                        <a href="pinterest">
+                            <img class="sm"src="img/landing/icon-Pinterest_.png"></a>
+                        <a href="Youtube">
+                            <img class="sm"src="img/landing/icon-you-tube.2.png"></a>
+                    </div>   
+            </section>
     <footer class="footer__content">
+            
             <div class="footer__part-1">
                 <h3 class="footer__part-1-h3">Encuéntranos</h3>
                 <h4 class="footer__part-1-h4">Dirección:</h4>
@@ -23,10 +40,18 @@
                         
             </div>
             <div class="footer__parte-3-logo">
-                <img class="logo-salu" src="img/landing/logo reducido.png" alt="enmarcaciones salustiano">
+                <a href="<?php echo home_url ( '/front-page/' ); ?>">   
+                        <img class="logo-salu" src="<?php bloginfo ( 'template_url' ); ?>/images/logo-400px.png" alt="<?php bloginfo ( 'name' ); ?>">
+                </a>  
+            
+            
             </div>
         </footer> 
       <script src="js/index.js"></script>
+      <!-- cargan mi js y vincular a este codigo
+      <script type="text/javascript"  
+	 src="<?php bloginfo('template_url'); ?>/js/myscript.js"></script> -->
+    
     </body>
     
 </html>

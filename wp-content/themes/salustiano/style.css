@@ -317,7 +317,7 @@ a:-webkit-any-link {
 }
 
 .slider__section1--content {
-  background-image: url(../img/landing/portada_imagen.png);
+  background-image: url(./images/portada_imagen.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

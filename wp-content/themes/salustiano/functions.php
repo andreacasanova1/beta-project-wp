@@ -14,11 +14,18 @@
 
         if ( !is_admin() )
         {
+            if ( is_page ( 'Contact' ) )
+            {
+                wp_enqueue_script ( 'js-main', get_stylesheet_directory_uri() . '/js/main.js', '', '', true );
+            }
+
             wp_enqueue_style ( 'css-main', get_stylesheet_uri(), '', filemtime ( get_template_directory() . '/style.css' ) );        
         }
     }
 
     add_action ( 'wp_enqueue_scripts', 'my_scripts_and_css', 100 );
+
+
 
 
 

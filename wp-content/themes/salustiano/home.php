@@ -7,6 +7,7 @@
     <!-- BLOG -->
 
     <section id="blog">
+        
 
         <header id="intro">
 

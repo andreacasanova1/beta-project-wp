@@ -42,43 +42,43 @@
  
             </section>
                 <div class="galery__section3--content">
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Luis-López-Cruz_1001.png">
+                    <a href="#">
+                      <div class="galery__section3-foto galery__section3-foto-1"> </div>
                       <p class="artistas-section3">Luis López Cruz.
                         <br>
                         Acrilico Sobre tela.
                         120 x 170 cm.</p>
                     </a>
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Maria-José-Gutierrez_1001.png">
+                    <a href="#">
+                    <div class="galery__section3-foto galery__section3-foto-2"> </div>
                       <p class="artistas-section3">María José Gutierrez.
                         <br>
                         Acrílico sobre tela.
                         120 x 170 cm.</p>
                     </a>
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Luis_Lamas_886.png">
+                    <a href="#">
+                    <div class="galery__section3-foto galery__section3-foto-3"></div>
                       <p class="artistas-section3">Luis Eduardo Lamas.
                         <br>
                         Acrílico Sobre tela.
                         120 x 170 cm.</p>
                     </a>
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Marcelo-Vergara_841.png">
+                    <a href="#">
+                    <div class="galery__section3-foto galery__section3-foto-4"></div>
                       <p class="artistas-section3">Marcelo Vergara.
                         <br>
                         Acrílico Sobre tela.
                         120 x 170 cm.</p>
                     </a>
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Patricio-Ulloa_1018.png">
+                    <a href="#">
+                    <div class="galery__section3-foto galery__section3-foto-5"></div>
                       <p class="artistas-section3">Patricio Ulloa.
                         <br>
                         Acrílico Sobre tela.
                         120 x 170 cm.</p>
                     </a>
-                    <a href="https://www.example.com">
-                      <img class="galery__section3-foto" src="img/landing/Andrea-Casanova-recuerdos_1200.png">
+                    <a href="#">
+                    <div class="galery__section3-foto galery__section3-foto-6"></div>
                       <p class="artistas-section3">Andrea Casanova.
                         <br>
                         Acrílico Sobre tela.

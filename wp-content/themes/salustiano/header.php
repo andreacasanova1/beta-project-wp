@@ -35,7 +35,7 @@
                             <li><a href="<?php echo home_url ( '/nosotros/' ); ?>">Nosotros</a></li>
                             <li><a href="<?php echo home_url ( '/carrito/' ); ?>">Carrito</a></li>
                         </ul>
-                            <?php wp_nav_menu ( array ( 'theme_location' => 'nav' ) ); ?>
+                           
                     </nav> 
                         
                     

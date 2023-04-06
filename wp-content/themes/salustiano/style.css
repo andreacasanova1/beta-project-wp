@@ -339,7 +339,7 @@ a:-webkit-any-link {
   }
 }
 .services__section2-image1 {
-  background-image: url(../img/landing/enmarcaciones-img.png);
+  background-image: url(./images/enmarcaciones-img.png);
   width: 340px;
   height: 340px;
   background-position: 50% 50%;
@@ -349,7 +349,7 @@ a:-webkit-any-link {
 }
 
 .services__section2-image2 {
-  background-image: url(../img/landing/giclée2_ctysim_c_scale\,w_843.png);
+  background-image: url(./images/giclée2_ctysim_c_scale\,w_843.png);
   width: 340px;
   height: 340px;
   background-position: 50% 50%;
@@ -379,7 +379,7 @@ a:-webkit-any-link {
   }
 }
 .galery__section3 {
-  background-image: url(../img/landing/gale3.png);
+  background-image: url(./images/gale3.jpeg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -402,7 +402,7 @@ a:-webkit-any-link {
   }
 }
 .contact__section4--epoca {
-  background-image: url(../img/landing/galeria_epoca_1162_mascara.png);
+  background-image: url(./images/galeria_epoca_1162_mascara.png);
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -452,24 +452,76 @@ a:-webkit-any-link {
   height: 320px;
   margin: 30px;
 }
+.galery__section3-foto-1 {
+  background-image: url(./images/Luis-López-Cruz_677.png);
+  background-size: cover;
+}
+.galery__section3-foto-2 {
+  background-image: url(./images/Maria-José-Gutierrez_698.png);
+  background-size: cover;
+}
+.galery__section3-foto-3 {
+  background-image: url(./images/Luis_Lamas_644.png);
+  background-size: cover;
+}
+.galery__section3-foto-4 {
+  background-image: url(./images/Marcelo-Vergara_605.png);
+  background-size: cover;
+}
+.galery__section3-foto-5 {
+  background-image: url(./images/Patricio-Ulloa_631.png);
+  background-size: cover;
+}
+.galery__section3-foto-6 {
+  background-image: url(./images/Andrea-Casanova-recuerdos_760.png);
+  background-size: cover;
+}
+
+ 
+
+
 
 .social__media-section5 {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  
+      
 }
-.social__media-section5 .sm {
+
+
+
+.sm-1 .sm {
+  background-image: url(/images/facebook-icon-circle-logo.png);
+  background-size: cover;
   width: 1.5rem;
   height: 1.5rem;
+  justify-content: space-around;
 }
+.sm-2  .sm{
+  background-image: url(./images/icon\ _Instagram_\ \(1\).png);
+  
+  background-size: cover;
+}
+.sm-3 .sm {
+  background-image: url(./images/icon\ _Linkedin_.png);
+  
+  background-size: cover;
+}
+.sm-4 .sm {
+  background-image: url(./images/icon-Pinterest_.png);
+  background-color: blue;
+  background-size: cover;
+}
+.sm-5 .sm {
+  background-image: url(./images/icon-you-tube.2.png);
+ 
+  background-size: cover;
+}
+
+
 
 @media (min-width: 1024px) {
   .social__media-section5 {
@@ -707,3 +759,4 @@ construir e menu desplegable en mobile*/
     list-style-type: none;
   }
 }
+  
